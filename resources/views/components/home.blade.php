@@ -1,1 +1,5 @@
+
 @extends('components.layouts.base')
+
+
+

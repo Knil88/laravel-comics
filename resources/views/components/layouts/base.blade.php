@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Laravel comics</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="style.css">
+  @vite('resources/js/app.js')
 
 </head>
 <body>
   @include('components.header')
-  @yield('content');
+  @include('components.layouts.main')
+  @include('components.footer')
   
 </body>
 </html>

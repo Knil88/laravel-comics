@@ -1,0 +1,122 @@
+#footer_bg {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    
+  }
+.container-blue{
+    margin: 0;
+    position: sticky;
+    z-index: 10000;
+    background-color: #0282f9;
+    padding: 20px;
+    margin-bottom: 35px;
+    #marketplace{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        color: white;
+        
+        .commercialLink{
+            display: flex;
+            
+            img{
+                max-width: 45px;
+            }
+            .info{
+                align-self: center;
+                display: inline-block;
+                margin: 0px 10px ;
+                text-decoration: none;
+                color: white;
+                min-width: 150px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+
+    #wrap-container{
+     
+      width: 80%;
+      padding-bottom: 15px;
+      margin: auto;
+      display: flex;
+      
+      
+      
+   
+      #big-logo-container{
+      
+        
+
+        img{
+          position: absolute;
+          right: 10%;
+          top: 79%;
+        }
+      }
+
+      #list-container{
+       
+        width:37% ;
+      
+        display: flex;
+        flex-wrap: wrap;
+
+      }
+      ul{
+        list-style: none;
+        padding-left: 20px;
+       
+      }
+    }
+    .titolo-li{
+      color:white;
+      margin-bottom: 5px;
+    
+    }
+    a{
+      color:#56504a;
+      text-decoration: none;
+      margin: 5px 0px;
+    }
+    #final-container{
+      background-color: #303030;
+      padding: 20px 0px;
+      width: 100%;
+      z-index: 1000;
+      position: sticky;
+
+      button{
+        align-self: center;
+        background-color: transparent;
+        color: white;
+        border: 1px solid  #13528e ;
+        padding:10px;
+        cursor: pointer;
+        
+
+      }
+
+     
+    }
+    #icon-container{
+      display: flex;
+      a{
+        margin: 5px 5px;
+      }
+      h3{
+        align-self: center;
+        margin-left: 5px;
+        color: #13528e;
+      }
+    }
+    #flex-container{
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }

@@ -1,0 +1,125 @@
+main{
+    padding-top:  15px;
+    z-index: 1000000;
+  }
+  .container-main{
+      background-color: black;
+      padding-top: 30%;
+     
+     #current{
+      color: white;
+      background-color: #0282f8;
+      padding: 8px;
+      position: absolute;
+      top: 58%;
+      left: 11%;
+      cursor: pointer;
+      transition: ease-in-out 0.5s;
+      &:hover{
+        background-color: white;
+        color:  #0282f8;
+        transform: scale(1.1);
+      }
+     }
+      
+      
+  }
+  .comic_container{
+    padding: 30px 0px;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    h3{
+      color: white;
+      text-align: center;
+      padding-top: 5px;
+    }
+    .big-card{
+      margin: 0px 10px;
+    }
+   
+  }
+  
+  #moreContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+  #more{
+    padding: 5px;
+    color: white;
+    background-color: #0282f8;
+    text-align: center;
+  }
+  #comic_container{
+  
+   
+    
+   
+
+   
+    h5{
+      color: white;
+      text-align: center;
+      padding: 10px 0px;
+      display: flex;
+      flex-direction: column;
+      &:hover{
+        text-decoration: underline;
+      }
+     
+    }
+    .big_card{
+      margin: 10px 10px;
+      width: 14%;
+      cursor: pointer;
+      
+    }
+    .cArd{
+      
+        img{ 
+          width: 100%;
+        }
+     
+    }
+    
+    
+  }
+  .cards-container{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(86% / 6);
+    height: calc(100% / 2);
+    margin-bottom: 3rem;
+}
+.card-image{
+    width: 100%;
+}
+.card-image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    aspect-ratio: 1;
+}
+.card-text{
+    height: 30%;
+    padding: 1rem 0;
+    color: white;
+}
+.lower-main-adjustments{
+    padding: 3rem 4rem;
+    background-color: black;
+    color: white;
+}
+.cards{
+   
+    display: flex;
+    justify-content: space-between;
+}
