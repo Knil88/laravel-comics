@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+    font-family: 'Archivo Narrow', sans-serif;}
+    button{
+        border: none;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover{
+            background-color: white;
+            color:  #0282f8;
+            transform: scale(1.1);}
+    }
