@@ -90,9 +90,9 @@
           </ul>
             
         </div>
-        {{-- <div id="big-logo-container">
+        <div id="big-logo-container">
             <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
-        </div> --}}
+        </div>
       </div>
       <div id="final-container">
         <div id="flex-container">

@@ -1,7 +1,7 @@
 <?php
 
 
-$comics_array = [
+$current_comic = [
 
    [
        "title" => "Action Comics #1000: The Deluxe Edition",
@@ -220,35 +220,36 @@ $comics_array = [
 ?>
 
 
-<main>
-    <div class="container-main">
-     
-      <button id="current">
-        CURRENT SERIES
-      </button>
     
-      <div class="cards-container">
-                            
-        @foreach($comics_array as $comic)
-            <div class="card bg-black">
-                <a href="comics">
-                <div class="card-image">
-                    <img src="{{ $comic['thumb'] }}" alt="">
+    <div class="blue_bar">
+        <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
+    </div>
+
+    <div class="container single-comic">
+        <div class="description">
+            <h1>ACTION COMICS #1000: THE DELUXE EDITION</h1>
+            <div class="green-bar">
+                <div>
+                    <span class="light-green">U.S. Price:</span> 
+                    <span class="white">&dollar;19.99</span>
                 </div>
-                <div class="card-text">
-                    {{ $comic['series'] }}
+                
+                <div>
+                   <span class="light-green">AVAILABLE</span>
+                    <span class="white availability">Check Availability</span> 
                 </div>
             </div>
-        @endforeach
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique sed, officia nihil illo aperiam quae 
+                inventore, alias nobis ab blanditiis non iste, consequatur dicta dolorum. Nihil minima voluptatibus optio 
+                odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique sed, officia nihil illo aperiam 
+                quae inventore, alias nobis ab blanditiis non iste, consequatur dicta dolorum. Nihil minima voluptatibus 
+                optio odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique sed, officia nihil illo 
+                aperiam quae inventore, alias nobis ab blanditiis non iste, consequatur dicta dolorum. Nihil minima 
+                voluptatibus optio odio.
+            </p>
+        </div>
+        <div>
+            <img src="{{Vite::asset('resources/img/adv.jpg')}}" alt="logo">
+        </div>
     </div>
-  </div>
-      
-       
-     
-      <div id="moreContainer">
-        <button id="more">
-          LOAD MORE
-        </button>
-      </div>
-    </div>
-  </main>

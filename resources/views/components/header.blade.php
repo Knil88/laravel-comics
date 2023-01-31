@@ -4,7 +4,7 @@
    
       <nav>
         <div id="img-container">
-            <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="Molisana Logo">
+           <a href="home"> <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="Molisana Logo"></a>
         </div>
         <ul>
             <li><a href="">CHARACTERS</a></li>
@@ -20,8 +20,9 @@
         </ul>
       </nav>
     </div>
+  
+  </header>
     <div class="jumbo-container">
 
     </div>
-  </header>
  

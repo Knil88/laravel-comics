@@ -1,1 +1,1 @@
-@extends('components.layouts.base')
+@extends('components.layouts.specific')
