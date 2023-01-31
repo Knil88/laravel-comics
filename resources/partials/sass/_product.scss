@@ -15,9 +15,25 @@
 }
 .single-comic{
     display: flex;
+    justify-content: space-around;
     margin-top: 6%;
+    width: 66%;
+    margin: auto;
     img{
         margin-top: 12%;
     }
+    }
+    h1{
+        font-size: 24px;
+    }
+    .green-bar{
+        background-color: green;
+        color:white;
+       
+        
+        margin: 5px auto;
+        padding: 5px;
+        display: flex;
+        
     }
 
